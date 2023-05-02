@@ -4,7 +4,7 @@
   "description": "Simple Express API for Shot expo app",
   "scripts": {
     "dev": "PORT=3001 nodemon",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "build:tsc": "tsc",
     "start": "node dist/index.js"
   },
