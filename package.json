@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "PORT=3001 nodemon",
     "build": "webpack",
+    "build:tsc": "tsc",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -22,7 +23,8 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
     "webpack": "^5.81.0",
-    "webpack-cli": "^5.0.2"
+    "webpack-cli": "^5.0.2",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
