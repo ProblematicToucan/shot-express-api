@@ -1,14 +1,14 @@
 {
   "name": "shot-express-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Express API for Shot expo app",
   "scripts": {
     "dev": "PORT=3001 nodemon",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "node dist/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gamal Aziz",
   "license": "MIT",
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
